@@ -1,10 +1,10 @@
 {
-    "user": [],
+    "users": [],
     "product": [
         {
             "id": "1",
-            "title": "macbook",
-            "price": 100,
+            "title": "Handmade Steel Bike",
+            "price": 800,
             "image": "https://media.dior.com/couture/ecommerce/media/catalog/product/M/r/1598535901_043J615A0589_C089_E12_GHC.jpg?imwidth=800",
             "quantity": 10,
             "availableSizes": [
@@ -17,9 +17,9 @@
         },
         {
             "id": "2",
-            "title": "iphone 112",
+            "title": "Handcrafted Rubber Cheese",
             "price": "1",
-            "quantity": 10,
+            "quantity": 650,
             "availableSizes": [
                 "XS",
                 "XL",
@@ -31,8 +31,8 @@
         },
         {
             "id": "3",
-            "title": "Minh",
-            "price": "2222",
+            "title": "Gorgeous Granite Bacon",
+            "price": "900",
             "quantity": 10,
             "availableSizes": [
                 "XS",
@@ -45,8 +45,8 @@
         },
         {
             "id": "4",
-            "title": "Minh",
-            "price": "2222",
+            "title": "Ergonomic Fresh Mouse",
+            "price": "1500",
             "availableSizes": [
                 "XS",
                 "L",
@@ -58,8 +58,8 @@
         },
         {
             "id": "5",
-            "title": "Minh",
-            "price": "2222",
+            "title": "Practical Wooden Soap",
+            "price": "1022",
             "availableSizes": [
                 "XXL",
                 "L"
@@ -70,8 +70,8 @@
         },
         {
             "id": "6",
-            "title": "Minh",
-            "price": "2222",
+            "title": "Incredible Frozen Bacon",
+            "price": "900",
             "availableSizes": [
                 "XS",
                 "XL"
@@ -82,8 +82,8 @@
         },
         {
             "id": "7",
-            "title": "Minh",
-            "price": "2222",
+            "title": "Intelligent Fresh Tuna",
+            "price": "2000",
             "availableSizes": [
                 "XXL",
                 "L"
@@ -94,8 +94,8 @@
         },
         {
             "id": "8",
-            "title": "Minh",
-            "price": "2222",
+            "title": "Rustic Soft Towels",
+            "price": "1800",
             "availableSizes": [
                 "XS",
                 "XL"
