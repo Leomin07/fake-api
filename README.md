@@ -1,10 +1,20 @@
 ## FAKE API
 
-- Hoisting: Nếu 1 biến được sử dụng sau đó mới khai báo và khởi tạo, giá trị khi nó được sử dụng sẽ là giá trị khởi tạo mặc định của nó ( undefinedđối với một biến được khai báo bằng cách sử dụng var, nếu không thì chưa được khởi tạo).
+## TRAN DAI MINH 08-03
+
+## TOPIC: this, apply, call, bind, setTimeout/clearTimeout, setInterval/clearInterval.
+
+- This: từ khoá **this** trong Javascript đề cập đến đối tượng mà ó thuộc về.
 
 ```
-console.log(name); // undefined
-var name = 'Minh';
+const test = {
+  prop: 42,
+  func: function() {
+    return this.prop;
+  },
+};
+
+console.log(test.func());
+// expected output: 42
 ```
-- Object: 
-**Yesterday**
+
