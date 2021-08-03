@@ -1,20 +1,23 @@
 ## FAKE API
 
-## TRAN DAI MINH 08-03
 
-## TOPIC: this, apply, call, bind, setTimeout/clearTimeout, setInterval/clearInterval.
+- SetInterval/ClearInterval:
 
-- This: từ khoá **this** trong Javascript đề cập đến đối tượng mà ó thuộc về.
+  - **SetInterval** hàm này sẽ thường được sử dụng để thiết lập độ trễ cho các hàm sẽ được thực hiện lặp lại như là hiệu ứng.
 
-```
-const test = {
-  prop: 42,
-  func: function() {
-    return this.prop;
-  },
-};
+  - Syntax: **setInterval(function, milliseconds, param1, param2, ...)**
 
-console.log(test.func());
-// expected output: 42
-```
+  ```
+    var intervalId = setInterval(function(){ alert("Hello"); }, 3000);
+    // expected output: alert("Hello");
+  ```
+
+  - **ClearInterval** sẽ xóa đi nhiệm vụ mà ta đã thiết lập trong hàm **setInterval()**
+
+  - Syntax: clearInterval(mySetInterval);
+
+  ```
+    clearInterval(intervalId);
+  ```
+
 
