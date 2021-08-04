@@ -1,5 +1,3 @@
-## FAKE API
-
 ## TRAN DAI MINH 08-03
 
 ## TOPIC: Scope và Closure, Immutable/Mutable, Pass by Value/Reference, this, apply, call, bind, setTimeout/clearTimeout, setInterval/clearInterval.
@@ -46,7 +44,7 @@ outerFunction()(); // expected output: I see the outer variable!
 var a = 10;
 ```
 
-- **Mutable** là một loại biến có thể thay đổi được.
+    - **Mutable** là một loại biến có thể thay đổi được.
 
 ```
 let b = {name: 'Minh', age: 20};
@@ -54,9 +52,29 @@ b.name = 'hoa'; // thay doi doi tương object b.
 ```
 
 - Pass by Value/Reference:
-  -Khi bạn truyền một biến trỏ đến một biến nguyên thủy chẳng hạn như 'hi', giá trị sẽ được sao chép vào một biến cục bộ mới bên trong hàm.
 
-  - Khi bạn truyền một biến trỏ đến một đối tượng, tham chiếu đến đối tượng sẽ được chuyển vào hàm để một biến cục bộ mới trỏ đến cùng một đối tượng.
+  - Khi bạn truyền một biến trỏ đến một biến nguyên thủy chẳng hạn như 'hi', giá trị sẽ được sao chép vào một biến cục bộ mới bên trong hàm.
+
+```
+let name = 'Minh';
+function changeName(name) {
+  name = 'Minh dep trai';
+}
+console.log(name); // expected output: 'Minh'
+```
+
+- Khi bạn truyền một biến trỏ đến một đối tượng, tham chiếu đến đối tượng sẽ được chuyển vào hàm để một biến cục bộ mới trỏ đến cùng một đối tượng.
+
+```
+let actress = {
+  name: 'Minh'
+};
+function changeActress(act) {
+  act.city = 'Arizona';
+}
+changeActress(actress);
+console.log(actress); // expected output: { name: 'Minh', city: 'Arizona' }
+```
 
 - This: từ khoá **this** trong Javascript đề cập đến đối tượng mà ó thuộc về.
 
@@ -160,4 +178,3 @@ var intervalId = setInterval(function(){ alert("Hello"); }, 3000);
 ```
   clearInterval(intervalId);
 ```
-
