@@ -24,7 +24,7 @@
 
 - API là viết tắt của Application Programming Interface (giao diện lập trình ứng dụng) phương thức kết nối với các thư viện và ứng dụng khác.
 
-!(https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/cors_principle.png)
+    ![cros-01](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/cors_principle.png)
 
 - HTTP Request (OPTIONS, GET, POST, PUT, PATH, DELETE)
 - CORS issue là một cơ chế dựa trên HTTP - header cho phép máy chủ chỉ ra bất kỳ origin nào (domain, scheme, or port) khác với origin mà từ đó trình duyệt sẽ cho phép tải tài nguyên.
